@@ -1,18 +1,56 @@
 *{
-    /* background-image: url(./images/pexels.jpg); */
+    
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-repeat:repeat;
+    
 }
+
 nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: space-between;       
+    text-decoration-color: white;
+    margin-bottom: 5px;
+    
 
+}
+nav a{
+   padding-left: 15px;
+   text-decoration: none;
+   color: black;
+   padding-right: 15px;
 }
 nav img{
     height: 40px;
     padding-left: 10px;
-    border-radius: 6px;
+    border-radius: 15px;
+    
+}
+nav a:hover{
+ cursor: pointer;
+ padding: 20px;
+}
+.about{
+    height: 500px;
+    text-align: center;
+    background-image: url(./images/pexels.jpg);
+    
+}
+.about h1, p{
+    padding-top: 50px;
+}
+button :hover{
+    padding: 12px;    
+    background-color: red;
+}
+.about div i{
+    padding-top: 5px;
+    color: black;
+}
+.about div i:hover{
+    transition: o.5s;
+    padding: 5px;
 }
