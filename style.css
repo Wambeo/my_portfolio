@@ -22,12 +22,13 @@ nav a{
    text-decoration: none;
    color: black;
    padding-right: 15px;
+   margin-right: 5px;
 }
 nav img{
     height: 40px;
     padding-left: 10px;
     border-radius: 15px;
-    
+    margin-right: 10px;
 }
 nav a:hover{
  cursor: pointer;
@@ -38,9 +39,14 @@ nav a:hover{
     text-align: center;
     background-image: url(./images/pexels.jpg);
     
+    
 }
+
 .about h1, p{
     padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 button{
     opacity: 0.6;
